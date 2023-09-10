@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://fastify-node-ai-example.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET https://fastify-node-ai-example.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/bba33c67-f07d-46c6-8cfc-068e5b25a1d2
+PUT https://fastify-node-ai-example.onrender.com/videos/bba33c67-f07d-46c6-8cfc-068e5b25a1d2
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/bba33c67-f07d-46c6-8cfc-068e5b25a1d2
+DELETE https://fastify-node-ai-example.onrender.com/videos/bba33c67-f07d-46c6-8cfc-068e5b25a1d2
